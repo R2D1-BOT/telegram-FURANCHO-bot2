@@ -1,12 +1,12 @@
-# wrangler.toml para Bot2
-name = "sociobot-telegram-bot2-prod" # <-- CAMBIO IMPORTANTE
+# wrangler.toml para Bot2 (CORREGIDO Y FINAL)
+name = "sociobot-telegram-bot2-prod"
 main = "src/worker.js"
 compatibility_date = "2024-08-29"
 
-[vars]
-BOT_ID = "BOT2" # <-- CAMBIO IMPORTANTE
-QUEUE_NAME = "agents-queue"
-
 [[kv_namespaces]]
 binding = "AGENTS_KV"
-id = "107bf9e3db69499f9f8d61d733fd435d" # Este ID es el mismo, porque comparten el KV
+id = "107bf9e3db69499f9f8d61d733fd435d"
+
+[vars]
+BOT_ID = "BOT2"
+RETELL_AGENT_ID = "agent_68559fb3b0132580cea9adfb25"
