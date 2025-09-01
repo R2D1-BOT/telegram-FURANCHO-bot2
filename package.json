@@ -1,0 +1,10 @@
+{
+  "name": "sociobot-telegram-bot1",
+  "version": "1.0.0",
+  "description": "Bot de Telegram con sistema de cola en Cloudflare Workers",
+  "main": "src/worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {}
+}
